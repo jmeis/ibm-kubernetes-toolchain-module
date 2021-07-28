@@ -49,7 +49,7 @@ variable "container_registry_namespace" {
 variable "pipeline_type" {
   type        = string
   description = "Type of IBM DevOps toolchain pipeline"
-  default     = "classic"
+  default     = "tekton"
 }
 
 variable "branch" {
